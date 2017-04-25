@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [galileo-io (v0.10.0)](https://github.com/rwaldron/galileo-io)  [![npm package](https://img.shields.io/npm/v/npmtest-galileo-io.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-galileo-io) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-galileo-io.svg)](https://travis-ci.org/npmtest/node-npmtest-galileo-io)",
+    "description": "#### basic test coverage for  [galileo-io (v0.10.0)](https://github.com/rwaldron/galileo-io)  [![npm package](https://img.shields.io/npm/v/npmtest-galileo-io.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-galileo-io) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-galileo-io.svg)](https://travis-ci.org/npmtest/node-npmtest-galileo-io)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "galileo-io": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }

@@ -1,6 +1,6 @@
 # npmtest-galileo-io
 
-#### test coverage for  [galileo-io (v0.10.0)](https://github.com/rwaldron/galileo-io)  [![npm package](https://img.shields.io/npm/v/npmtest-galileo-io.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-galileo-io) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-galileo-io.svg)](https://travis-ci.org/npmtest/node-npmtest-galileo-io)
+#### basic test coverage for  [galileo-io (v0.10.0)](https://github.com/rwaldron/galileo-io)  [![npm package](https://img.shields.io/npm/v/npmtest-galileo-io.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-galileo-io) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-galileo-io.svg)](https://travis-ci.org/npmtest/node-npmtest-galileo-io)
 
 #### Intel Galileo & Intel Edison IO Plugin for Johnny-Five JavaScript Robotics
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-galileo-io/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-galileo-io/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-galileo-io/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-galileo-io/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-galileo-io/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-galileo-io/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-galileo-io/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-galileo-io/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-galileo-io/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-galileo-io/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-galileo-io/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-galileo-io/build/coverage.html/index.html)
 
@@ -110,7 +110,8 @@
     "scripts": {
         "test": "grunt"
     },
-    "version": "0.10.0"
+    "version": "0.10.0",
+    "bin": {}
 }
 ```
 
